@@ -15,21 +15,7 @@
 		http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa-1.3.xsd
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd" default-lazy-init="true">
 
-	<!-- 使用annotation 自动注册bean,并检查@Required,@Autowired的属性已被注入 -->
     <context:property-placeholder location="classpath:dev.properties" ignore-unresolvable="true"/>
 	<context:component-scan base-package="com.sand.zkb" />
-	<!--<aop:aspectj-autoproxy proxy-target-class="true"/>-->
-    <!--<import resource="mail.xml"/>-->
 	<import resource="bean.xml"/>
-	<!--<beans profile="dev">-->
-        <!--<context:property-placeholder location="classpath:dev.properties" ignore-unresolvable="true"/>-->
-		<!--<import resource="mybatis.xml"/>-->
-        <!--<import resource="redis-backup.xml"/>-->
-		<!--<import resource="redis.xml"/>-->
-        <!--<import resource="springjpa.xml"/>-->
-		<!--<import resource="cxf-server.xml"/>-->
-		<!--<import resource="jms.xml"/>-->
-        <!--<import resource="springquartz.xml"/>-->
-		<!--<import resource="dubbo-provider.xml"/>-->
-	<!--</beans>-->
 </beans>

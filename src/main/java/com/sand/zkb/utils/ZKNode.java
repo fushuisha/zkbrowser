@@ -6,9 +6,6 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by david.sha on 2017/1/25.
- */
 public class ZKNode {
     private String realPath;
     private String viewPath;

@@ -1,6 +1,5 @@
 package com.sand.zkb.utils;
 
-import org.I0Itec.zkclient.ZkClient;
 import org.I0Itec.zkclient.serialize.SerializableSerializer;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.context.request.RequestContextHolder;
@@ -12,9 +11,7 @@ import java.lang.reflect.Array;
 import java.util.Collection;
 import java.util.Map;
 
-/**
- * Created by SDW on 2016/11/26.
- */
+
 public class CommonUtil {
     public static final SerializableSerializer serializableSerializer = new SerializableSerializer();
 

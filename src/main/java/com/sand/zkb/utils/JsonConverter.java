@@ -4,9 +4,6 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 
-/**
- * Created by SDW on 2015/4/26.
- */
 public class JsonConverter extends MappingJackson2HttpMessageConverter {
 //    private static ObjectMapper mapper;
     public JsonConverter() {
