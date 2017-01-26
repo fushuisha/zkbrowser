@@ -5,7 +5,6 @@ import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 
 public class JsonConverter extends MappingJackson2HttpMessageConverter {
-//    private static ObjectMapper mapper;
     public JsonConverter() {
         super(Jackson2ObjectMapperBuilder
                 .json()
@@ -13,14 +12,6 @@ public class JsonConverter extends MappingJackson2HttpMessageConverter {
                 .serializationInclusion(JsonInclude.Include.NON_NULL)
                 .simpleDateFormat("yyyy-MM-dd HH:mm:ss")
                 .build());
-//        setMapper(super.getObjectMapper());
     }
 
-//    public static ObjectMapper getMapper() {
-//        return mapper;
-//    }
-
-//    public static void setMapper(ObjectMapper mapper) {
-//        BeepJackson2HttpConverter.mapper = mapper;
-//    }
 }

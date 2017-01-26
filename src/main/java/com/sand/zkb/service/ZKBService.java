@@ -14,9 +14,6 @@ import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by david.sha on 2017/1/26.
- */
 @Service
 public class ZKBService {
     private final Logger logger = LoggerFactory.getLogger(ZKBService.class);
